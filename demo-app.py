@@ -1,8 +1,6 @@
 import subprocess
 import sys
 import os
-import streamlit as st
-
 #this function is used to verify and install all the dependencies:
 def install_requirements():
     # Check if requirements.txt exists
@@ -20,5 +18,6 @@ def install_requirements():
 
 install_requirements()
 
+import streamlit as st
 
 st.write("Hello World.")
